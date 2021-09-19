@@ -1,0 +1,26 @@
+.mdzx-swiper {
+    padding-bottom: 40px;
+  }
+ .swiper-slide {
+    /* min-height: 280px;
+    background-color: #ccc; */
+  }
+.mdzx-swiper .swiper-slide img {
+    display: block;
+  }
+.mdzx-swiper .swiper-pagination {
+    width: 350px;
+    top: initial;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+.mdzx-swiper .swiper-pagination span {
+    background-color: #e6211a;
+  }
+
+  .mdzx-swiper img{
+      width: 450px;
+  }

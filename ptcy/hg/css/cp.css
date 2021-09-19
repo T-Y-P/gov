@@ -1,0 +1,25 @@
+.warehouse {overflow:hidden;margin-top: 30px;margin-bottom:40px;} 
+.list ul {margin:0 -1%; }
+.list ul li {float:left;width:22.333%;margin:30px 5% 0;}
+.list ul li a { display: block;border: 1px solid #e7e3e2;border-radius: 20px;}
+.list ul li .img {overflow: hidden;background: #f7f5f6; }
+.list ul li .img img {display:block; width:100%; }
+.web p{text-align: center;font-size: 30px;padding:10px;}
+.next1{padding:40px;}
+.next1 ul{text-align: center;}
+.next1 ul li{display: inline-block; line-height: 38px;text-align: center;}
+.next1 ul li a{padding:6px; border: 1px solid #e7e3e2;  border-radius:5px; font-size: 16px; color: #999;margin:2px}
+.next1 ul li a:hover{color:#000}
+
+.pagebar .pagination { display: flex;justify-content: center;padding:20px}
+.pagination a {background: #fff; border: 1px solid #ccc; color: #333; font-size: 14px; padding: 8px 12px; margin: 0 5px; border-radius: 3px;}
+.pagination span { color: #333;font-size: 14px;padding: 8px 2px;margin: 0 5px;border-radius: 3px;}
+.pagination a:hover {color: #4fc08d;border: 1px solid #4fc08d;}
+.pagination a.page-num-current {color: #fff;background: #e6211a;border: 1px solid #4fc08d;}
+
+
+@media screen and (max-width:768px){
+.list ul li{ width: 49%;margin:5px 0 0;}
+.web p{font-size: 16px;}
+.pagination a{padding: 8px 10px;}
+}

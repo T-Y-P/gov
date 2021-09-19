@@ -1,0 +1,73 @@
+.page_news { }
+.news_nav { text-align:center;margin-top: 50px;}
+.news_nav ul li { display:inline-block; margin:0 20px; }
+.news_nav ul li a { display: inline-block; width: 136px; height: 38px; line-height: 38px; text-align: center; border: 1px solid #e7e3e2; font-size:16px; color:#999; border-radius: 5px;}
+.news_nav ul li.on a,.news_nav ul li a:hover { background:#f5d92f; color:#fff; }
+.page_news .list {margin-top:30px;}
+.page_news .list ul li {border-bottom: 1px solid #e7e3e2;padding: 30px 0;}
+.page_news .list ul li .img { float: left; width: 250px; overflow: hidden; margin-right: 48px; }
+.page_news .list ul li .img img { display: block; width: 100%; }
+.page_news .list ul li .web { overflow: hidden; padding-top:24px;  }
+.page_news .list ul li .web span { display: block; width: 22px; height: 22px; line-height: 22px; text-align: center; color: #fff; float: left; margin-right: 16px; }
+.page_news .list ul li .web .wd_w span { background: #8cb25e; }
+.page_news .list ul li .web .wd_w h4 { overflow: hidden; line-height: 22px; font-size: 18px; font-weight: normal; }
+.page_news .list ul li .web .wd_w h4 a { color: #333; }
+.page_news .list ul li .web .wd_d { margin-top: 20px; }
+.page_news .list ul li .web .wd_d span { background: #fe9322; margin-top:5px; }
+.page_news .list ul li .web .wd_d .text { overflow:hidden; }
+.page_news .list ul li .web .wd_d p { line-height: 32px; overflow: hidden; overflow:hidden;}
+.page_news .list ul li .web .wd_d p a { color: #666; }
+.page_news .list ul li .web .wd_d .news_xq { margin-top:20px; }
+.page_news .list ul li .web .wd_d .news_xq em { float:right; color:#999; }
+.page .web{margin-top: 22px;font-family:微软雅黑;font-weight:lighter;font-size: 16px;} 
+/* 文章 */
+.Mtang{width: 100%;height: auto;overflow: hidden;margin-top: 50px;}
+.Mtang ul{width: 100%;height: auto;overflow: hidden;}
+.Mtang ul li{ max-width: 50%; height: auto; overflow: hidden; }
+.Mtang ul li:first-child{float: left;}
+.Mtang ul li:last-child{float: right; }
+.Mtang ul li a{display: inline-block;color: #808080;line-height: 30px;height: 30px;overflow: hidden;}
+.news_publish{line-height: 24px;text-align: center;color: #808080;padding-bottom: 24px;border-bottom: 1px dashed #e6e6e6;margin-bottom: 42px;}
+.news_title{    font-size: 24px; line-height: 34px; margin-top: 10px;text-align: center;}
+.page{line-height:24px;}
+/*分页栏1*/
+.next1{padding:40px;}
+.next1 ul{text-align: center;}
+.next1 ul li{display: inline-block; line-height: 38px;text-align: center;}
+.next1 ul li a{padding:6px; border: 1px solid #e7e3e2;  border-radius:5px; font-size: 16px; color: #999;margin:2px}
+.next1 ul li a:hover{color#000}
+/*分页栏2*/
+.pagebar .pagination { display: flex;justify-content: center;padding:20px}
+.pagination a {background: #fff; border: 1px solid #ccc; color: #333; font-size: 14px; padding: 8px 12px; margin: 0 5px; border-radius: 3px;}
+.pagination span { color: #333;font-size: 14px;padding: 8px 2px;margin: 0 5px;border-radius: 3px;}
+.pagination a:hover {color: #4fc08d;border: 1px solid #4fc08d;}
+.pagination a.page-num-current {color: #fff;background: #e6211a;border: 1px solid #4fc08d;}
+
+@media (max-width: 991px){
+.Mtang ul li {max-width: 100%; width: 100%;}
+}
+
+@media only screen and (max-width: 750px){
+.main-center{ width: 96%;}
+.page_news .list ul li .img {width: 150px; margin-right: 20px;}
+.page_news .list ul li .web .wd_d{ margin-top:5px;line-height:20px;}
+.page_news .list ul li .web .wd_d>p{ line-height:13px;height:104px;}
+.page_news .list ul li .web .wd_d>p { height: 52px;}
+.page_news .list ul li .img{width:150px;}
+.page_news .list ul li .web .wd_w h4{ white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.page_news .list ul li .web .wd_d p{ height:auto;}
+/* .page_news .list ul li .web .wd_d>p{ height:px;} */
+.page_news .list ul li .web .wd_d .news_xq{ margin-top:0}
+.page_news .list ul li .web .wd_d .news_xq a{display: none;}
+.page_news .list ul li .web .wd_d .news_xq em {float: none; }
+.page_news .list ul li .web{ padding-top:0}
+.page_news .list ul li{ padding:20px 0}
+.explosive_list .web .text{ padding:15px;}
+.explosive_owl .owl_cur span{width:40px;height:40px;}
+.page.page2{ margin-top:40px;}
+.index_about .list ul li p{ margin-top:10px; line-height:22px;}
+.index_about .web{ margin-top:20px;}
+.index_news .left .web p{ margin-top:10px;}
+.page_news .list ul li .web .wd_d a{font-size: 12px;}
+.pagination a{padding:4px 8px;}
+  }

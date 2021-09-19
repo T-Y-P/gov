@@ -1,0 +1,11 @@
+#ppwh li{font-size: 18px;line-height:30px;}
+.li-right{float: right;}
+.li-left{float: left;}
+.ppwh-utxt{display:inline-block;}
+#ppwh{margin: 0 auto;}
+.ppjs-title{ width: 60%; margin: 0 auto;line-height: 32px;}
+
+@media only screen and (max-width: 750px){
+    .ppjs-title{ width:90%; margin: 0 auto;line-height:20px;}
+
+    }
