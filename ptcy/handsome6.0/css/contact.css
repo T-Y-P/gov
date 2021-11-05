@@ -1,0 +1,37 @@
+/* Css*/
+.r-left{float:left}
+.r-right{float:right}
+.w1300{ width: 1300px; margin:  0 auto;}
+.form-txt{width: 42%;}
+.form{width: 58%;}
+.form form{display:flex;justify-content:space-between;flex-wrap:wrap;}
+.form form > input{margin-bottom:18px}
+.form form input{width:48%;height:40px;padding:0 10px;color:#ccc;border:1px solid #ccc;box-sizing:border-box}
+.form form .f-code{display:flex;width:48%;justify-content:space-between}
+.form form .f-code input{width:36%}
+.form form .f-code .img{width:60%;height:40px}
+.form form .f-code .img img{width:60%;height:40px}
+.form form input[type="submit"]{background-color:#e6211a;border:none;width:100%;margin-bottom:0;color:#fff}
+.form form .lytxt{height: 200px;}
+.index-title{padding:10%}
+.index-title h2{color:#fe690d;font-size:44px;font-weight:400}
+.index-title h2 span{font-size:34px;font-weight:600}
+.index-title h2 span{font-size:48px;font-weight:600}
+.index-title p{margin-top:10px;margin-bottom:20px;letter-spacing:2px}
+
+@media (max-width:768px){
+.w1300{width: 100%;}
+.form-txt{width: 100%;display: none;}
+.form{width:100%;}
+.form form{padding-right:15px;padding-left:15px;margin-bottom:20px}
+.form form input{width: 100%;}
+.form form .f-code .img{width: 140px;}
+.form form .f-code{width: 100%;margin-top: 10px;}
+.form form .f-code input{width: 100%;}
+input::-webkit-input-placeholder{font-size: 12px;}
+..form form input{width: 100%;height: 3em;display: block;border-radius: 5px;border: 0.5px solid gray;padding-left: 1em;}
+.lytxt{width: 100%; height: 8em; display: block;  border-radius: 5px;  border: 0.5px solid gray; padding-left: 1em;}
+.submit{margin: 10px;}
+.form form input::placeholder{font-size:14px;color:gray}
+.index-title h2 span{font-size: 40px;}
+}
