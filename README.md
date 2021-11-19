@@ -5,4 +5,8 @@
 #### 2021.10.5 dedecms更新到pbootcms by:typ
 #### 2021.11.5新加handsome文件
 #### 2021.11.17新加handsome文件
+
+
+[公共加速调用](https://www.jsdelivr.com/package/gh/T-Y-P/gov) 
+[![](https://data.jsdelivr.com/v1/package/gh/T-Y-P/gov/badge)](https://www.jsdelivr.com/package/gh/T-Y-P/gov)
 [![govcdn GitHub stats](https://github-readme-stats.vercel.app/api?username=T-Y-P)](https://github.com/T-Y-P/gov)
