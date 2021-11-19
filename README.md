@@ -13,9 +13,9 @@
 #### 2021.11.17新加handsome文件
 
 #### 下一步计划
- 1.重新对公共调用库进行更新
- 2.博客图片全部移到github上面，国内存放git
- 3.下个项目zoo模版即将启动
+  1. 重新对公共调用库进行更新
+  2. 博客图片全部移到github上面，国内存放git
+  3. 下个项目zoo模版即将启动
 [公共加速调用](https://www.jsdelivr.com/package/gh/T-Y-P/gov) 
 
 [![jsdelivr统计](https://data.jsdelivr.com/v1/package/gh/T-Y-P/gov/badge)](https://www.jsdelivr.com/package/gh/T-Y-P/gov)
