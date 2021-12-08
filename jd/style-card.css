@@ -1,77 +1,309 @@
-.card {
-      background: #fff;
-      background-size: contain;
-      text-align: center;
-      padding: 1em;
-    }
-    .card h1 {
-      font-size: 20px;
-      margin: 5px auto 0;
-      letter-spacing: 1px;
-    }
-    .card h2 {
-      margin: auto;
-      color: #5c6170;
-      font-weight: 300;
-      font-size: 15px;
-    }
-    .card red {
-      margin: auto;
-      color: #da0000;
-      font-weight: 300;
-      font-size: 15px;
-    }
-    .card blue {
-      margin: auto;
-      color: #0099ff;
-      font-weight: 300;
-      font-size: 15px;
-    }
-    .card yellow {
-      margin: auto;
-      color: #fffb00;
-      font-weight: 300;
-      font-size: 15px;
-    }
-    .card green {
-      margin: auto;
-      color: #00e626;
-      font-weight: 300;
-      font-size: 15px;
-    }
-    .card orange {
-      margin: auto;
-      color: #ff8800;
-      font-weight: 300;
-      font-size: 15px;
-    }
-  
-    .card .button {
-      display: block;
-      text-decoration: none;
-      background: #666CD9;
-      color: #f9f9f9;
-      padding: 12px;
-      border: none;
-      border-radius: 25px;
-      margin-top: 30px;
-      font-size: 16px;
-      font-weight: 700;
-      min-width: 200px;
-      transition: 0.2s;
-    }
-    .card .button span {
-      font-size: 20px;
-      line-height: 1;
-      vertical-align: top;
-    }
-    .card .button:hover {
-      background: #5D4AD9;
-    }
-    .card img {
-    background-color: #ffffff;
-    border-radius: 10%;
-    margin: auto auto 15px;
-    display: block;
+  .card {
+    background: #fff;
+    background-size: contain;
+    text-align: center;
+    padding: 1em;
   }
   
+  .card h1 {
+    font-size: 22px;
+    margin: -20px auto 0;
+    letter-spacing: 1px;
+  }
+  .card h2 {
+    font-size: 18px;
+    color: #DC143C;
+    margin: 5px auto 0;
+    letter-spacing: 1px;
+  }
+  .card h3 {
+    font-size: 22px;
+    margin: 5px auto 0;
+    letter-spacing: 1px;
+  }
+  .card red20 {
+    margin: auto;
+    color: #da0000;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card red18 {
+    margin: auto;
+    color: #da0000;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card red16 {
+    margin: auto;
+    color: #da0000;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card rde14 {
+    margin: auto;
+    color: #da0000;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .card blue20 {
+    margin: auto;
+    color: #1E90FF;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card blue18 {
+    margin: auto;
+    color: #1E90FF;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card blue16 {
+    margin: auto;
+    color: #1E90FF;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card blue14 {
+    margin: auto;
+    color: #1E90FF;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card yellow20 {
+    margin: auto;
+    color: #FFD700;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card yellow18 {
+    margin: auto;
+    color: #FFD700;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card yellow16 {
+    margin: auto;
+    color: #FFD700;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card yellow14 {
+    margin: auto;
+    color: #FFD700;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card green20 {
+    margin: auto;
+    color: #00e626;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card green18 {
+    margin: auto;
+    color: #00e626;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card green16 {
+    margin: auto;
+    color: #00e626;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card green14 {
+    margin: auto;
+    color: #00e626;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card orange20 {
+    margin: auto;
+    color: #ff8800;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card orange18 {
+    margin: auto;
+    color: #ff8800;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card orange16 {
+    margin: auto;
+    color: #ff8800;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card orange14 {
+    margin: auto;
+    color: #ff8800;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card LightCoral20 {
+    margin: auto;
+    color: #F08080;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card LightCoral18 {
+    margin: auto;
+    color: #F08080;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card LightCoral16 {
+    margin: auto;
+    color: #F08080;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card LightCoral14 {
+    margin: auto;
+    color: #F08080;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card DimGray20 {
+    margin: auto;
+    color: #696969;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card DimGray18 {
+    margin: auto;
+    color: #696969;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card DimGray16 {
+    margin: auto;
+    color: #696969;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card DimGray14 {
+    margin: auto;
+    color: #696969;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card Violet20 {
+    margin: auto;
+    color: #EE82EE;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card Violet18 {
+    margin: auto;
+    color: #EE82EE;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card Violet16 {
+    margin: auto;
+    color: #EE82EE;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card Violet14 {
+    margin: auto;
+    color: #EE82EE;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card Pink20 {
+    margin: auto;
+    color: #FFC0CB;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card Pink18 {
+    margin: auto;
+    color: #FFC0CB;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card Pink16 {
+    margin: auto;
+    color: #FFC0CB;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card Pink14 {
+    margin: auto;
+    color: #FFC0CB;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card Crimson20 {
+    margin: auto;
+    color: #DC143C;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card Crimson18 {
+    margin: auto;
+    color: #DC143C;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card Crimson16 {
+    margin: auto;
+    color: #DC143C;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card Crimson14 {
+    margin: auto;
+    color: #DC143C;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card text20 {
+    margin: auto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .card text18 {
+    margin: auto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .card text16 {
+    margin: auto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  .card text14 {
+    margin: auto;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .card .button {
+    display: block;
+    text-decoration: none;
+    background: #666CD9;
+    color: #f9f9f9;
+    padding: 6px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    min-width: 200px;
+    transition: 0.2s;
+  }
+  .card .button span {
+    font-size: 20px;
+    line-height: 1;
+    vertical-align: top;
+  }
+  .card .button:hover {
+    background: #5D4AD9;
+  }
