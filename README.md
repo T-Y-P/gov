@@ -12,15 +12,16 @@
 
 #### 新加wow动画
 
-#### 2021.10.5 dedecms更新到pbootcms by:typ
+#### 2021.10.5 dedecms更新到pbootcms by:T-Y-P
 
-#### 2021.11.5新加handsome文件
 
 #### 2021.11.17新加handsome文件
 
-#### 新加nolan静态css by：typ
+#### 新加nolan静态css by：T-Y-P
 
-#### 新加up静态 by：handsome
+### 2022年
+
+#### 新加up静态 by：T-Y-P
 
 #### 下一步计划
   1. 重新对公共调用库进行更新
