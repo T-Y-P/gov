@@ -1,0 +1,11 @@
+.qy{
+    padding: 60px 0px 60px; 
+      font-size: 18px; line-height: 40px; 
+      ertical-align: baseline; animation-duration: 1.5s; 
+      animation-fill-mode: both; 
+      animation-name: bounceInLeft; 
+      color: rgb(102, 102, 102);
+       white-space: normal;
+        visibility: visible;
+
+}

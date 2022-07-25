@@ -27,6 +27,7 @@
 
 ### 餐饮培训静态模版
 
+### 7.25更
 
   
 [公共加速调用](https://www.jsdelivr.com/package/gh/T-Y-P/gov) 

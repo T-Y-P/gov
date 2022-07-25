@@ -1,0 +1,7 @@
+/*css初始化*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,img{padding: 0; margin: 0;}
+dl,ul,ol,menu,li{list-style:none}
+input[type="submit"]{cursor: pointer;}
+del,ins,a{text-decoration:none;}
+img{max-width:100%;}
+.wrap{ width: 96%;margin: 0 auto;max-width: 1200px;position: relative;}

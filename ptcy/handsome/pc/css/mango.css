@@ -1,0 +1,33 @@
+
+.mango-overlay {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.mango-image--open {
+  position: relative;
+  cursor: zoom-out !important;
+}
+
+.mango--open .mango-overlay {
+  cursor: zoom-out;
+  opacity: 1;
+}
+
+.mango-image {
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+figure {
+  margin: 0;
+}
+
+figure:not(:first-child) {
+  margin-top: 1rem;
+}

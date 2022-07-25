@@ -1,0 +1,87 @@
+
+
+/*轮播css*/
+@charset "utf-8";
+#certify {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#certify .swiper-container {
+	padding-bottom: 50px;
+	width: 85%;
+}
+#certify .swiper-slide {
+	width: 90%;
+	height: auto;
+	background: #fff;
+	border-radius: 2%;
+	overflow: hidden;
+	box-shadow: 0 8px 30px #ddd;
+}
+#certify .swiper-slide img {
+	display: block;
+	width: 100%;
+}
+#certify .swiper-slide p {
+    line-height: 98px;
+	padding-top: 0;
+	text-align: center;
+	color: #636363;
+	font-size: 1.1em;
+	margin: 0;
+}
+#certify .swiper-pagination {
+	width: 100%;
+	bottom: 20px;
+}
+#certify .swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 5px;
+	border: 2px solid #fff;
+	background-color: #d5d5d5;
+	width: 5px;
+	height: 5px;
+	opacity: 1;
+}
+#certify .swiper-pagination-bullets .swiper-pagination-bullet-active {
+	border: 3px solid #00aadc;
+	background-color: #fff;
+}
+#certify .swiper-button-prev {
+	left: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(http://www.jq22.com/demo/swiperlbt201810230049/images/wm_button_icon.png) no-repeat;
+	background-position: 0 0;
+	background-size: 100%;
+}
+#certify .swiper-button-prev:hover {
+	background-position: 0 -46px;
+	background-size: 100%;
+}
+#certify .swiper-button-next {
+	right: -30px;
+	width: 45px;
+	height: 45px;
+	background: url(http://www.jq22.com/demo/swiperlbt201810230049/images/wm_button_icon.png) no-repeat;
+	background-position: 0 -93px;
+	background-size: 100%;
+}
+#certify .swiper-button-next:hover {
+	background-position: 0 -139px;
+	background-size: 100%;
+}
+
+#QPlayer {
+	z-index: 999999;
+
+}
+@media screen and (min-width: 700px) {
+	#certify {
+		width: 1200px;
+	}
+	#certify .swiper-slide {
+		width: 70%;
+	}
+}

@@ -1,0 +1,82 @@
+﻿@charset "utf-8";
+/* CSS 导航栏模块 github.com/t-y-p*/
+.wal{width:1320px;margin:0px auto;}
+.headDiv{ 
+    height:77px; 
+    background:#efe026; 
+    position:fixed; width:100%;
+    overflow:hidden;
+    z-index:999;
+    box-shadow: 0 2px 3px rgba(170, 178, 189, 0.2);}
+.headDiv .wal{ position:relative; height:130px;}
+.headDiv .logo{ display:block; position:absolute; left:35%; top:17px; }
+.headDiv .lan{ padding-top:20px; font-size:14px; color:#ababab; position:relative; left:-10px;}
+.headDiv .lan a{ padding:0 10px; color:#999;}
+.headDiv .lan a:hover{ color:#759250;}
+.nav1{ position:absolute; height:80px; }
+.nav1 li{float:left; height:80px; padding:0 55px; font-size:16px;  position:relative;}
+.nav1 .li01{ padding:0 55px 0 0;}
+.nav1 .li02{ background:none;}
+.nav1 a{ display:block; height:77px; line-height:77px; color:#434343;}
+.nav1 a:hover, .nav1 a.aNow{ color:#759250; border-bottom:#759250 solid 3px;} 
+.nav1 a.aNow1{ color:#759250; border-bottom:#759250 solid 3px;}
+
+.nav2{ position:absolute; height:80px;  right:0px;}
+.nav2 li{float:left; height:80px; padding:0 55px; font-size:16px; position:relative;}
+.nav2 .li01{ padding:0 0 0 55px; background:none;}
+.nav2 a{ display:block; height:77px; line-height:77px; color:#434343;}
+.nav2 a:hover, .nav2 a.aNow{ color:#759250; border-bottom:#759250 solid 3px;} 
+.nav2 a.aNow1{ color:#759250; border-bottom:#759250 solid 3px;}
+
+.headDiv .topRight{ position:absolute; right:90px; top:13px; z-index:7;}
+.headDiv .topRight li{ float:left; width:29px; position:relative; margin-left:20px;}
+.headDiv .Search{ width:31px; height:31px;} 
+.headDiv .Search input{ position:absolute; right:0px; top:-1px; display:none; font-size:14px; color:#888; height:29px; line-height:29px; background: #fff; border-radius: 20px; -moz-border-radius:20px; padding:0 15px; width: 180px; border:#ababab solid 1px;} 
+.headDiv .Search img{position: absolute;right: 0px; top: 0px; cursor: pointer;}  
+.headDiv .links{ position:absolute; right:0px; top:13px; height:29px; line-height:29px; font-size:14px;}
+.headDiv .links a{ color:#ababab;}
+.headDiv .links a:hover{ color:#759250;}
+
+
+.headDiv .weixin .ewmLayer{position:absolute; left:50%; margin-left:-45px; top:20px; background:url(../images/bg2.png) repeat; width:90px; height:84px; opacity:0; filter:alpha(opacity=0); visibility:hidden; z-index:222;}
+.headDiv .weixin.on .ewmLayer{opacity:1; filter:alpha(opacity=1); visibility:visible; top:28px;}
+.headDiv .weixin .ewmLayer .imgDiv{ padding-top:6px; text-align:center;}
+.headDiv .weixin .ewmLayer .imgDiv img{ width:70px;}
+.headDiv .weixin .ewmLayer{
+transition:All 0.5s ease;
+-webkit-transition:All 0.5s ease;
+-moz-transition:All 0.5s ease;
+-o-transition:All 0.5s ease;	
+}
+
+
+
+.navIco, .topSearchIco, .telIco, .closeIco{ display:none;}
+
+/*导航触发效果*/
+.sNav{position:absolute; top:130px; z-index:111; width:120px; display:none; background:url(../images/bg3.png) repeat; padding:15px 0 5px;}
+.sNav .list li{ font-size:14px; line-height:20px; height:20px; margin-bottom:10px;}
+.sNav .list li a{ color:#333; display:block; text-align:center;}
+.sNav .list li a:hover{ color:#759250;}
+.sNav .content{ padding-left:45px; width:515px; position:relative; height:227px;}
+.sNav .txt{ font-size:16px; color:#333; padding-bottom:15px;}
+.sNav .msg{ font-size:14px; line-height:24px;}
+.sNav .imgDiv{ padding-right:45px;}
+.sNav .more{ position:absolute; left:45px; bottom:0px;}
+.sNav .more a{ color:#333; font-size:14px; display:block; height:24px; line-height:24px; background:url(../images/nimg26_1.png) right center no-repeat; width:113px;}
+.sNav .more a:hover{ color:#ffcc00; background:url(../images/nimg26_1on.png) right center no-repeat;}
+
+/*导航菜单触发*/
+.navLayer{overflow-x: auto; height:100%; width:100%; overflow:hidden; position:fixed; z-index:999; right:-100%; top:0px;}
+.navLayer .bg{overflow-x: auto;position:relative; background:#759250; height:100%;width:100%;}
+.navLayer .closeBtn{ height:60px; width:60px; position:absolute; top:0px; right:0px;}
+.navLayer .closeBtn img{ position:relative; left:14px; top:10px; width:32px;}
+.navLayer .sideNav{ padding:40px 10px;}
+.subNav{cursor:pointer; display:block; height:42px; line-height:42px; border-bottom:1px solid #fff; position:relative; font-size:14px; color:#fff;}
+.subNav1{ background:url(../images/nimg52_1.png) right center no-repeat; background-size:32px;}
+.subNav .name{ position:relative;}
+.subNav a{ color:#fff; display:block;}
+.currentDt{ color:#fff; background:url(../images/nimg52_1on.png) right center no-repeat; background-size:32px;}
+.navContent{display: none;}
+.navContent li{ position:relative;}
+.navContent a{display:block; height:42px; line-height:42px; padding-left:10px; color:#fff; font-size:14px;}
